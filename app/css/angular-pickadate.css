@@ -1,0 +1,137 @@
+.pickadate {
+  font-family: 'Open sans Light', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; }
+  .pickadate a {
+    color: #666666; }
+    .pickadate a:visited {
+      color: #666666; }
+
+.pickadate-header {
+  position: relative; }
+
+.pickadate-main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px; }
+
+.pickadate-cell {
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
+  .pickadate-cell li {
+    display: block;
+    float: left;
+    border-width: 0 1px 1px 0;
+    width: 14.285%;
+    padding: 5.5% 0 1.3% 0;
+    line-height: normal;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+
+  .pickadate-cell .pickadate-disabled {
+    color: #666; opacity: 0;}
+    .pickadate-cell .pickadate-disabled a {
+      color: #666; opacity: 0; }
+  .pickadate-cell .pickadate-enabled {
+    cursor: pointer;
+    font-size: 13px;
+    color: #ffffff; }
+  .pickadate-cell .pickadate-today {
+    color: #ff8400; }
+  .pickadate-cell .pickadate-active {
+    color: #ff8400; }
+
+    .pickadate-cell .pickadate-head {
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 10px; }
+
+.pickadate-centered-heading {
+  font-weight: normal;
+  text-align: center;
+  font-size: 17px;
+  color: #ff8400;
+  margin: 16px 0 6px 0;
+  line-height: normal;
+   }
+
+.pickadate-controls {
+  position: absolute;
+  z-index: 10;
+  width: 100%; }
+  .pickadate-controls .pickadate-next {
+    float: right;
+    color: transparent; }
+  .pickadate-controls .pickadate-next:before {
+    content: '';
+    width: 7px;
+    height: 12px;
+    background: url(../i/next-month-icon.png) no-repeat;
+    position: absolute;
+    top: 7px;
+    right: 24px;
+    display: block;
+  }
+  .pickadate-controls .pickadate-prev {
+    color: transparent;
+  }
+  .pickadate-controls .pickadate-prev:before {
+    content: '';
+    width: 7px;
+    height: 12px;
+    background: url(../i/next-month-icon.png) no-repeat;
+    position: absolute;
+    top: 7px;
+    left: 24px;
+    display: block;
+    transform: rotate(180deg)
+  }
+  .pickadate-controls a {
+    text-decoration: none;
+    font-size: 0.9em; }
+
+.pickadate-modal {
+  position: absolute;
+  background-color: #fff;
+  width: 300px;
+  border-radius: 4px;
+  padding: 0 5px 5px 5px;
+  z-index: 1000; }
+.date-select .pickadate-modal,
+.date-time-content .mobile-only .pickadate-modal,
+.add-content .pickadate-modal {
+  background: rgb(64,64,64);
+}
+.date-select .pickadate-disabled,
+.date-time-content .mobile-only .pickadate-disabled,
+.add-content .pickadate-cell .pickadate-disabled {
+  display: none;
+}
+.date-select ul.pickadate-cell li,
+.date-time-content .mobile-only ul.pickadate-cell li,
+.step-7.step-content .add-content ul.pickadate-cell li {
+  padding-bottom: 0;
+  padding: 2.0% 0 0.3% 0;
+}
+.date-select ul.pickadate-cell,
+.date-time-content .mobile-only ul.pickadate-cell,
+.step-7.step-content .add-content ul.pickadate-cell {
+  margin-bottom: 10px;
+}
+.date-time-content .mobile-only .pickadate-modal,
+.mobile-branch-edit .branch-detail-confirm-info.edit .date-select .pickadate-modal {
+  width: 250px;
+}
+.date-time-content .mobile-only ul.pickadate-cell,
+.mobile-branch-edit .branch-detail-confirm-info.edit .date-select ul.pickadate-cell {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 0;
+}
+.date-time-content .mobile-only ul.pickadate-cell li,
+.mobile-branch-edit .branch-detail-confirm-info.edit .date-select ul.pickadate-cell li {
+  padding-bottom: 3px;
+  padding-top: 5px;
+}
