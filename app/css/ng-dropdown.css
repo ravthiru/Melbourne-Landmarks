@@ -1,0 +1,128 @@
+
+
+.ng-dropdown {
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+}
+.branch-detail-confirm-info .ng-dropdown {
+  width: 66%;
+  display: inline-block;
+  top: -4px;
+}
+.ng-dropdown-field {
+  width: 100%;
+  height: 29px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #5b97d8;
+  border: 1px solid #ececec;
+  padding-left: 15px;
+  border-radius: 1px;
+}
+.branch-detail-confirm-info .ng-dropdown-field {
+  width: 100%;
+  height: 29px;
+  font-size: 15px;
+  color: #999999;
+  border: 1px solid #ececec;
+  padding-left: 13px;
+  float: right;
+  font-family: 'Open sans Light';
+}
+
+.ng-dropdown-field:focus {
+  outline: none;
+  border-color: #fff;
+  color: #5b97d8;
+}
+
+.dropdown-disabled .ng-dropdown-field {
+  border-color: #bdc3c7;
+}
+
+.ng-dropdown-field:before {
+  font-size: 1.5em;
+  content: "";
+  float: right;
+  color: #5b97d8;
+  margin-right: 6px;
+  background-position: -10px -461px; width: 17px; height: 17px;
+  position: relative;
+  top: 4px;
+}
+
+
+.ng-dropdown-field:hover {
+  border-color: #ddd;
+}
+
+.ng-dropdown.active .ng-dropdown-field {
+  border-color: #999;
+}
+
+.dropdown-disabled .ng-dropdown-field:hover {
+  border-color: #ddd;
+}
+
+
+.ng-dropdown-value {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.ng-dropdown-value.placeholder {
+  color: #bdc3c7;
+}
+.system-size .ng-dropdown-menu {
+  top: 50px;
+  width: 57%;
+  right: 0;
+  left: auto;
+}
+
+.ng-dropdown-menu {
+  border-top: 0;
+  left: 0;
+  background-color: white;
+  display: none;
+  width: 100%;
+  position: absolute;
+  float: left;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 265px;
+  z-index: 999;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  top: 29px;
+  font-family: 'Open sans Light';
+}
+
+.ng-dropdown-menu .option {
+  cursor: pointer;
+  padding: 5px 15px;
+  border-bottom: 1px solid #ececec;
+  color: #999999;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Open sans Light';
+}
+
+.ng-dropdown-menu .option.active,
+.ng-dropdown-menu .option:hover {
+  color: white;
+  background-color: #3498db;
+}
+
+/* Used to make the dropdown menu visible */
+
+.open {
+  display: block;
+}
