@@ -1,0 +1,1572 @@
+@media (min-width: 250px) and (max-width: 767px) {
+
+body .page.left-detail {
+    /*left: 80%;
+    position: fixed;
+    width: 100%;*/
+}
+	/*distance-coverage*/
+	.distance-coverage {
+		width: 100%;
+		left: 0;
+		margin-left: 0;
+	}
+		.distance-coverage p.title {
+			font-size: 13px;
+			padding: 11px 0 12px;
+		}
+		.distance-coverage .nearest {
+			font-size: 13px;
+			padding-top: 19px;
+		}
+		.distance-coverage .distance-option {
+			margin: 15px auto 21px;
+			width: 270px;
+		}
+		.distance-coverage .select-btn {
+			margin-bottom: 16px;
+			height: 26px;
+			line-height: 15px;
+			padding: 6px 3px 9px;
+		}
+			.distance-coverage ul li a {
+				font-size: 13px;
+				height: 28px;
+				line-height: 25px;
+			}
+				.distance-coverage ul li a .mil {
+					font-size: 11px;
+				}
+			.distance-coverage ul li.active a {
+				border: 1px solid #00adef;
+			}
+			.distance-coverage ul li:first-child a {
+
+			}
+	/*appointment type*/
+	.appointment-type {
+		width: 100%;
+		left: 0;
+		margin-left: 0;
+	}
+	.appointment-type p.title {
+		font-size: 13px;
+		padding: 11px 0 12px;
+	}
+	.appointment-type .nearest {
+		font-size: 13px;
+		padding-top: 19px;
+	}
+	.appointment-type .distance-option {
+		margin: 15px auto 21px;
+		width: 270px;
+	}
+	.appointment-type .select-btn {
+		margin-bottom: 16px;
+		height: 26px;
+		line-height: 15px;
+		padding: 6px 3px 9px;
+	}
+	.appointment-type ul li a {
+		font-size: 13px;
+		height: 28px;
+		line-height: 25px;
+	}
+	.appointment-type ul li a .mil {
+		font-size: 11px;
+	}
+	.appointment-type ul li.active a {
+		border: 1px solid #00adef;
+	}
+	.appointment-type ul li:first-child a {
+
+	}
+	.main-header {
+		display: none;
+	}
+	/*left sidebar .branch-detail-col*/
+	.branch-detail-col {
+		width: 80%;
+		top: 0;
+        -moz-box-shadow: 0 8px 8px rgba(0,0,0,.11);
+		-webkit-box-shadow: 0 8px 8px rgba(0,0,0,.11);
+		box-shadow: 0 8px 8px rgba(0,0,0,.11);
+		height: 100%;
+	}
+	.branch-detail-col.slide-right {
+        /*left: 0;*/
+        height: 100%;
+
+    }
+    	.branch-detail-content.selection {
+    		padding-bottom: 10px;
+    	}
+    	.branch-detail-col .branch-head {
+    		display: none;
+    	}
+    	.branch-detail-content .branch-detail-info {
+    		padding-left: 16px;
+    	}
+	    	.branch-detail-content .branch-photo img {
+	    		height: 91px;
+	    	}
+	    	.branch-detail-content .branch-photo .b-name {
+	    		font-size: 12px;
+	    		height: 38px;
+	    		line-height: 38px;
+	    	}
+	    	.branch-detail-info > ul > li {
+	    		padding-left: 28px;
+	    	}
+	    	.branch-detail-info > ul > li p {
+	    		font-size: 12px;
+	    	}
+	    	.branch-detail-info > ul > li p.agent-name {
+	    		font-size: 8px;
+	    		width: 31px;
+	    	}
+	    	.slick-slide img {
+	    		width: 31px;
+	    		height: 31px;
+	    	}
+	    	.branch-detail-content .book-app-btn {
+	    		height: 30px;
+	    		font-size: 12px;
+	    		line-height: 24px;
+	    		width: 130px;
+	    		padding: 3px 8px 4px;
+	    		margin-top: 9px;
+	    		margin-bottom: 0;
+	    	}
+
+	/*right sidebar map col*/
+	.appoint-select-container {
+		top: 0;
+	}
+	.appoint-select-container.mobile {
+		height: 100%;
+	}
+		.appoint-select-col {
+			padding: 0;
+		}
+		.appoint-select-head {
+			top: 0;
+			padding-left: 10px;
+			padding-right: 10px;
+			background-color: #00adef;
+			-moz-box-shadow: 0 3px 3px rgba(0,0,0,.15);
+			-webkit-box-shadow: 0 3px 3px rgba(0,0,0,.15);
+			box-shadow: 0 3px 3px rgba(0,0,0,.15);
+			height: 40px;
+			z-index: 9999;
+			border-bottom: none;
+		}
+			.appoint-select-head p.title {
+				line-height: 40px;
+				color: #fff;
+				font-size: 13px;
+				font-family: 'Open sans Semibold';
+			}
+			.appoint-select-head .notification .notif-icon {
+				top: 11px;
+			}
+			.appoint-select-col .notification.mobile {
+				display: inline-block;
+			}
+				.appoint-select-col .notification .num-of-notif {
+					left: 14px;
+					top: 4px;
+				}
+			.appoint-select-head .filter {
+				line-height: 40px;
+			}
+			.appoint-moible-detail.appoint-select-head .filter {
+				line-height: normal;
+				position: relative;
+				top: 8px;
+			}
+				.appoint-moible-detail.appoint-select-head .filter a {
+					font-size: 15px;
+				}
+				.appoint-select-head .filter a.m-back-btn {
+					font-size: 13px;
+					color: #fff;
+					display: inline-block;
+					position: absolute;
+    				right: -9px;
+    				margin-right: 10px;
+				}
+					.appoint-select-head .filter a.m-back-btn .back-icon {
+						margin-left: 5px;
+						position: relative;
+    					top: 1px;
+					}
+				.appoint-select-head .filter .filter-icon {
+					top: 2px;
+					margin-right: 0;
+				}
+				.appoint-select-head .filter .filter-text {
+					display: none;
+				}
+				.appoint-select-head .filter a {
+					color: #fff;
+					font-size: 12px;
+				}
+		.pregress-map-row {
+			top: 40px;
+		}
+			#branchs-map-view .current-radius {
+				margin-top: 8px;
+			}
+			.map-container img.star-marker-icon {
+				width: 26px;
+			}
+	/*.selection-confirm-btns*/
+	.appoint-select-container div.selection-confirm-col {
+		height: 38px;
+		width: 100%;
+		z-index: 6;
+	}
+		.selection-confirm-btns {
+		    top: 5px;
+		}
+			.selection-confirm-btns a.selection-btn {
+				margin-right: 10px;
+			}
+			.selection-confirm-btns a.confirm-btn {
+				margin-left: 10px;
+			}
+				.selection-confirm-btns a.confirm-btn .confirm-blue-icon {
+					margin-bottom: 0;
+				}
+			.selection-confirm-btns a p {
+				top: -2px;
+				position: relative;
+			}
+
+	/*filter branch*/
+	body .page.filter-bg-blur {
+		/*left: -184px;*/
+	}
+	.branch-filter {
+		width: 75%;
+		position: absolute;
+		top: 0;
+		right: -106%;
+		display: none;
+	}
+	.branch-filter.active {
+		display: block;
+	}
+		.appoint-select-head.slide {
+			/*left: -184px;*/
+		}
+		.branch-filter p.r-title, .branch-filter p.f-title {
+			font-size: 13px;
+			padding-left: 23px;
+			height: 36px;
+			line-height: 36px;
+		}
+		.branch-filter label, .branch-filter p {
+			font-size: 12px;
+		}
+		.recent-branch p.b-name {
+			padding-left: 23px;
+		}
+		.branch-filter label {
+			height: 36px;
+			line-height: 36px;
+			padding-left: 23px;
+		}
+		.branch-filter input {
+	        font-size: 12px;
+	        height: 34px;
+	        padding-left: 23px;
+		}
+		.branch-filter input::-webkit-input-placeholder {
+	        font-size: 12px;
+	    }
+	    .branch-filter input::-moz-placeholder {
+	        font-size: 12px;
+	    }
+	    .branch-filter input:-ms-input-placeholder {
+	        font-size: 12px;
+	    }
+	    .branch-filter ul.agents li p.agent-name {
+	    	font-size: 9px;
+	    	background: transparent;
+	    	padding-bottom: 10px;
+    		padding-top: 3px;
+	    }
+	    .cancel-apply-btns .apply-btn {
+	    	font-size: 12px;
+	    	width: 74px;
+	    }
+	    .branch-filter ul.agents li img {
+	    	width: 31px;
+	    	height: 31px;
+	    }
+	    .recent-agent {
+	    	position: absolute;
+	    	top: 55px;
+	    	right: 104%;
+	    }
+	    	.recent-branch ul li > p.desc {
+	    		padding-left: 23px;
+	    	}
+	    	.branch-filter .recent-agent p.r-title {
+	    		background: transparent;
+	    		height: 36px;
+	    		padding-left: 0;
+	    		line-height: 1.2;
+    			text-align: center;
+    			padding-left: 23px;
+	    	}
+	    	.recent-agent ul.agents {
+	    		padding-left: 0;
+	    		text-align: center;
+	    		background: transparent;
+	    		padding-left: 30px;
+	    	}
+	    	.cancel-apply-btns {
+			    bottom: 0;
+	    		/*left: 54px;*/
+	    		background: #404040;
+	    		padding-top: 20px;
+	    		padding-bottom: 20px;
+	    	}
+	    	.cancel-apply-btns .apply-btn {
+	    		left: 50%;
+	    		position: relative;
+	    		padding: 6px 3px 7px;
+	    		margin-right: 2px;
+	    		bottom: 0;
+	    	}
+	    	.cancel-apply-btns .apply-btn.cancel-btn {
+	    		background: #ff8b00;
+	    	}
+	/*book-progress-step*/
+	.book-progress-step-container {
+		padding: 0;
+		height: 100%;
+	}
+		.book-progress-step-container .progress-step {
+			padding-top: 13px;
+			padding-bottom: 13px;
+		}
+			.book-progress-step-container .step-content {
+				min-height: 335px;
+				height: 97%;
+			}
+			.appo-type-container {
+				padding: 15px 16px 0 25px;
+			}
+				.progress-step ul.progress-rail {
+					display: none;
+				}
+				.progress-step ul.progress-rail li div.rail {
+					margin: 0 10px;
+					top: 12px;
+				}
+				.progress-step ul.steps li p {
+					display: none;
+				}
+					.progress-step ul.steps li a {
+						font-size: 11px;
+						height: 20px;
+						width: 20px;
+						line-height: 18px;
+						border: 1px solid #cacaca;
+					}
+					.progress-step ul.steps li.complete a,
+					.progress-step ul.steps li.current a {
+						border: 1px solid #ff8a00;
+					}
+
+				.step-content p.step-title {
+					padding: 8px 0 11px;
+					font-size: 13px;
+					margin: 0;
+				}
+				.appo-type-container div.radio-col-2 {
+					padding-left: 0;
+				}
+				input[type="radio"] + label {
+					font-size: 12px;
+					margin-bottom: 7px;
+				}
+				input[type="radio"] + label span {
+					width: 10px;
+					height: 11px;
+					background-position: -379px -411px;
+				}
+				input[type="radio"]:checked + label span {
+					width: 10px;
+					height: 11px;
+					background-position: -370px -402px;
+				}
+				.appo-type-container input[type="radio"] + label span,
+				.appo-type-container input[type="radio"]:checked + label span {
+					top: 3px;
+				}
+				.requrmt-know-row input[type="checkbox"] + label {
+					margin-bottom: 2px;
+					line-height: 1.5;
+				}
+				input[type="checkbox"] + label {
+					font-size: 12px;
+					margin-bottom: 7px;
+				}
+				input[type="checkbox"] + label span {
+					width: 10px;
+					height: 11px;
+					background-position: -379px -411px;
+					top: 2px;
+				}
+				input[type="checkbox"]:checked + label span {
+					width: 10px;
+					height: 11px;
+					background-position: -370px -402px;
+					top: 3px;
+				}
+				.confirm-modal-content input[type="radio"] + label {
+					font-size: 13px;
+				}
+				.next-back-btns {
+					width: 100%;
+    				text-align: center;
+    				left: auto;
+    				transform: none;
+    				position: relative;
+    				bottom: -20px;
+    				margin-bottom: 16px;
+				}
+					.next-back-btns .save-btn,
+					.next-back-btns .add-appo-btn,
+					.next-back-btns .back-btn,
+					.next-back-btns .next-btn {
+						width: 97px;
+					    height: 31px;
+					    line-height: 17px;
+					}
+		.step-content .requrmt-content {
+			padding: 9px 18px 5px;
+		}
+			.agent-content div.search-row,
+			.step-content .requrmt-content div.row {
+				padding-left: 0;
+				margin-bottom: 4px;
+			}
+				.agent-content input, .requrmt-content input {
+					width: 100%;
+					height: 26px;
+					line-height: 17px;
+					font-size: 13px;
+					padding-left: 12px;
+				}
+				.agent-content div.row > label,
+				.requrmt-content div.row > label {
+					position: relative;
+					display: block;
+					font-size: 13px;
+					line-height: 27px;
+				}
+				.agent-content input::-webkit-input-placeholder,
+	            .requrmt-content input::-webkit-input-placeholder {
+	                font-size: 13px;
+	            }
+	            .agent-content input::-moz-placeholder,
+	            .requrmt-content input::-moz-placeholder {
+	                font-size: 13px;
+	            }
+	            .agent-content input:-ms-input-placeholder,
+	            .requrmt-content input:-ms-input-placeholder {
+	                font-size: 13px;
+	            }
+	            .step-content .requrmt-content .agree-row,
+	            .step-content .requrmt-content .requrmt-know-row {
+	            	padding-left: 2px;
+	            	padding-right: 15px;
+	            	padding-top: 3px;
+	            }
+	           	.date-time-content .desk-only {
+	           		display: none;
+	           	}
+	           	.date-time-content .mobile-only {
+	           		display: block;
+	           	}
+	           		.date-time-content .mobile-only .date-time {
+	           			padding: 15px 18px 10px;
+	           		}
+	           			.date-time-content .mobile-only .date-time .date {
+	           				margin-bottom: 7px;
+	           				position: relative;
+	           			}
+	           				.date-time-content .mobile-only .date-input-container {
+	           					position: relative;
+	           				}
+			           		.date-time-content .mobile-only input[name="date"] {
+			           			width: 100%;
+			           			border: 1px solid #ececec;
+							    font-size: 13px;
+							    line-height: 15px;
+							    padding-bottom: 5px;
+							    height: 25px;
+							    color: #999999;
+							    padding-left: 12px;
+							    display: block;
+							    z-index: 9;
+							    top: 0;
+							    margin-left: auto;
+							    opacity: 0;
+							    cursor: pointer;
+							    position: relative;
+			           		}
+			           		.date-time-content .mobile-only .date-format {
+			           			position: absolute;
+							    font-size: 13px;
+							    color: #999999;
+							    top: 25px;
+							    height: 27px;
+							    line-height: 23px;
+							    background: #ffffff;
+							    border: 1px solid #ececec;
+							    padding-left: 12px;
+							    width: 100%;
+			           		}
+			           		.date-time-content .mobile-only .time-label,
+			           		.date-time-content .mobile-only .date-label {
+			           			display: block;
+			           			font-size: 13px;
+			           			color: #999;
+			           			margin-bottom: 8px;
+			           		}
+			           		.date-time-content .mobile-only .ng-dropdown-field {
+			           			padding-left: 12px;
+			           			font-size: 13px;
+			           			color: #999;
+			           			height: 25px;
+			           			line-height: 22px;
+			           		}
+			           			.date-time-content .mobile-only .ng-dropdown-menu .option {
+			           				font-size: 13px;
+			           			}
+			           			.step-7.step-content .time-select .ng-dropdown-menu {
+			                        max-height: 120px;
+			                    }
+			           		.date-time-content .mobile-only .time-select {
+			           			position: relative;
+			           		}
+			           		.date-time-content .mobile-only .arrow-blue-icon {
+			           			position: absolute;
+			           			right: 7px;
+    							top: 5px;
+    							z-index: 9;
+			           		}
+			    /*agent-content*/
+			    .step-content .agent-content {
+			    	position: relative;
+			    	padding-top: 16px;
+			    	padding-left: 12px;
+			    }
+			    	.agent-content ul {
+			    		padding-left: 0;
+			    		max-height: 190px;
+			    		margin-left: 0;
+			    	}
+			    		.agent-content ul li {
+			    			padding-left: 6px;
+			    			height: 50px;
+			    		}
+				        .agent-content div.search-row {
+				        	margin-bottom: 4px;
+				        }
+					        .agent-content div.search-row.d-search {
+					        	display: none;
+					        }
+					        .agent-content div.search-row.m-search {
+					        	display: block;
+					        	margin: 0 18px 18px 0;
+					        	position: relative;
+					        }
+					        	.agent-content div.search-row.m-search input {
+					        		width: 100%;
+					        		padding-left: 28px;
+					        	}
+					        .agent-content ul li .agent-name img {
+					        	width: 36px;
+					        	height: 36px;
+					        }
+					        .agent-content ul li.active .agent-name img {
+					        	width: 44px;
+					        	height: 44px;
+					        }
+					        .agent-content ul li .aval-text {
+					        	display: none;
+					        }
+					        .agent-content ul li .agent-name p {
+					        	font-size: 13px;
+					        	padding-left: 50px;
+					        }
+					        .agent-content ul li .unavailable .unaval-icon,
+					        .agent-content ul li .available .aval-icon {
+					        	height: 7px;
+					        	width: 7px;
+					        }
+					        .agent-content div.search-row .search-icon {
+					        	position: absolute;
+					        	left: 12px;
+					        	top: 8px;
+					        }
+				/*comments-content*/
+				.comments-content {
+					padding: 13px 18px;
+					width: 100%;
+					position: relative;
+				}
+					.comments-content label {
+						font-size: 13px;
+					}
+					.comments-content textarea {
+			            height: 206px;
+			            width: 100%;
+			            font-size: 13px;
+			            border-radius: 0;
+			        }
+			            .comments-content textarea::-webkit-input-placeholder {
+			                color: rgba(165,165,165,0.5);
+			                font-size: 13px;
+			                font-family: 'Open sans Light-Italic';
+			            }
+			            .comments-content textarea::-moz-placeholder {
+			                color: rgba(165,165,165,0.5);
+			                font-size: 13px;
+			                font-family: 'Open sans Light-Italic';
+			            }
+			            .comments-content textarea:-ms-input-placeholder {
+			                color: rgba(165,165,165,0.5);
+			                font-size: 13px;
+			                font-family: 'Open sans Light-Italic';
+			            }
+			    /*.step-7.step-content*/
+			    .step-6.step-content {
+			    	width: 100%;
+			    	height: 98%;
+			    	margin: 0;
+			    	box-shadow: none;
+			    	border: none;
+			    }
+			    	.step-6.step-content .pickadate-modal {
+			    		left: 0;
+			    		width: 250px;
+			    	}
+			    		.step-6.step-content .add-content {
+			    			padding: 18px 18px 5px 24px;
+			    		}
+			    			.step-6.step-content .add-content ul li {
+			    				padding-bottom: 16px;
+			    			}
+			    				.step-6.step-content .add-content > ul > li.agents-last-li {
+			    					height: 57px;
+			    				}
+			    				.step-6.step-content .add-content ul li:first-child > p,
+			    				.step-6.step-content .add-content ul li:first-child > .time,
+					    		.step-6.step-content .add-content ul li:first-child > .date {
+					    			font-size: 12px;
+					    		}
+					    		.step-6.step-content .add-content ul li:first-child > p {
+					    			padding-left: 22px;
+					    		}
+					    		.add-content ul li > div.l-left > p {
+					    			font-size: 12px;
+					    		}
+					    		.add-content ul li > div.l-left .date,
+					    		.add-content ul li > div.l-left .time {
+					    			font-size: 12px;
+					    			padding-bottom: 6px;
+					    			padding-left: 22px;
+					    		}
+					    		.add-content ul li > div.l-left .time {
+					    			margin-top: 6px;
+					    		}
+					    		.selection-confirm-btns .num-of-notif {
+					    			top: -24px;
+					    		}
+					    		.m-hide-sel-confirm {
+					    			display: none;
+					    		}
+					    		.add-content ul li > div.l-left p .agent-name {
+					    			padding-left: 4px;
+					    		}
+					    		.step-6.step-content .add-content ul li input[name="appointment"],
+					    		.step-6.step-content .add-content ul li input[name="user"],
+					    		.step-6.step-content .add-content ul li input[name="date"] {
+					    			font-size: 12px;
+					    			line-height: 12px;
+					    			padding-left: 10px;
+					    		}
+					    		.step-6.step-content .add-content .ng-dropdown-field  {
+					    			font-size: 12px;
+					    			height: 27px;
+					    		}
+					    		.add-content ul li > div.l-right .edit-btn {
+					    			width: 40px;
+					    			height: 17px;
+					    			line-height: 17px;
+					    			font-size: 9px;
+					    		}
+					    		.add-content ul li > div.l-left > p {
+					    			padding-left: 22px;
+					    		}
+					    		.step-6.step-content p.step-title {
+					    			padding: 8px 0 11px;
+					    		}
+					    		.step-6.step-content .next-back-btns {
+					    			left: auto;
+					    			bottom: 0;
+					    		}
+					    			.step-6.step-content .next-back-btns .save-btn,
+						    		.step-6.step-content .next-back-btns .add-appo-btn,
+						    		.step-6.step-content .next-back-btns .back-btn {
+						    			width: 131px;
+						    			font-size: 14px;
+						    			padding: 6px 3px 7px;
+						    			height: 31px;
+						    			line-height: 18px;
+						    		}
+						    		.step-6.step-content .next-back-btns .save-btn {
+						    			width: 63px;
+						    		}
+						    		.step-6.step-content .next-back-btns .back-btn {
+						    			width: 63px;
+						    		}
+						    		.mobile-branch-edit ul li .date-select .date-format {
+						    			left: 0;
+						    			width: 100%;
+						    			top: -26px;
+						    			font-family: 'Open sans';
+						    		}
+						    		.date-select .date-format,
+						    		.step-6.step-content .add-content ul li .date-format {
+						    			left: 72px;
+						    			font-size: 12px;
+						    		}
+						    		.step-6.step-content .add-content ul li .date-format {
+						    			left: 66px;
+						    		}
+						    		.date-select .date-format.selected-value,
+						    		.step-6.step-content .add-content ul li .date-format.selected-value {
+						    			font-size: 12px;
+						    		}
+						    		.date-select .date-format.selected-value,
+						    		.step-6.step-content .add-content ul li .date-format.selected-value {
+						    			left: 65px;
+						    			font-size: 12px;
+						    		}
+						    		.step-6.step-content .add-content ul li .date-format.selected-value {
+						    			left: 58px;
+						    		}
+						    		.date-select .arrow-blue-icon, .step-6.step-content .add-content ul li .arrow-blue-icon {
+						    			top: 4px;
+						    		}
+						    		.step-6.step-content .add-content .time-select {
+						    			margin-left: 44px;
+						    		}
+						    		.step-6.step-content .add-content ul li .arrow-blue-icon {
+						    			left: 248px;
+						    		}
+	/*current-appoint-col*/
+	.left-branch-detail.branch-detail-col {
+		display: none;
+	}
+	.left-branch-detail.branch-detail-col.m-branch-detail {
+		display: block;
+		width: 80%;
+		height: 100%;
+		position: absolute;
+	}
+	.current-appoint-col.branch-detail-col {
+		left: 0;
+		width: 100%;
+		top: 40px;
+		box-shadow: none;
+		position: relative;
+		padding-bottom: 40px;
+		z-index: 2;
+	}
+	.current-appoint-col.branch-detail-col
+	.current-appoint-col.branch-detail-col .branch-head {
+		display: block;
+	}
+		.curr-past-tabs {
+			display: block;
+			background-color: #fff;
+			-moz-box-shadow: 0 3px 5px rgba(0,0,0,.05);
+			-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.05);
+			box-shadow: 0 3px 5px rgba(0,0,0,.05);
+		}
+		.curr-past-tabs > ul {
+			border-bottom: 1px solid #ebebeb;
+		}
+		.curr-past-tabs ul li {
+			width: 50%;
+		}
+			.curr-past-tabs ul li a {
+				color: #999;
+				font-size: 13px;
+				display: block;
+				line-height: 31px;
+				width: 100%;
+				text-align: center;
+				border-bottom: 4px solid transparent;
+			}
+			.curr-past-tabs ul li.active a {
+				color: #00aeef;
+				border-bottom: 4px solid #00aeef;
+			}
+			.current-appoint-content ul li .appoint-info p.agent-info,
+			.current-appoint-content ul li .appoint-info p.b-name {
+				font-size: 13px;
+			}
+			.current-appoint-content ul li .appoint-info .status {
+				font-size: 11px;
+			}
+			.current-appoint-content ul li .agent-pic .status-icon {
+				top: 13px;
+			}
+			.current-appoint-content ul li .agent-pic img {
+				width: 31px;
+				height: 31px;
+			}
+			.current-appoint-content ul > li > a {
+				padding: 11px 0 13px 52px;
+				height: 76px;
+			}
+			.current-appoint-content ul > li:last-child > a {
+				border-bottom: 1px solid #ebebeb;
+			}
+			.current-appoint-content ul li.active {
+				background: #fff;
+				border-bottom: 1px solid #ebebeb;
+			}
+			.current-appoint-content > ul > li.active > a {
+				border-bottom: none;
+			}
+	/*swipe-men*/
+	.swipe-menu {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+		.swipe-menu a {
+			display: block;
+			width: 53px;
+			height: 77px;
+			font-size: 10px;
+			text-align: center;
+			color: #fff;
+			padding-top: 21px;
+			padding-bottom: 2px;
+		}
+		.swipe-menu a.confirm-sbtn {
+			background: #00aeef;
+		}
+		.swipe-menu a.print-sbtn {
+			background: #ff8a00;
+			padding-top: 20px;
+		}
+		.swipe-menu a.edit-sbtn {
+			background: #8d8d8d;
+		}
+		.swipe-menu a.delete-sbtn {
+			background: #ff0000;
+			padding-top: 20px;
+		}
+
+	/*mobile detail*/
+	.mobile-detail-container {
+		top: 40px;
+		position: relative;
+	}
+	.appoint-moible-detail .save-btn,
+	.appoint-moible-detail .cancel-btn,
+	.appoint-moible-detail .back-btn {
+		color: #fff;
+		font-size: 13px;
+		line-height: 35px;
+	}
+	.appoint-moible-detail .back-btn {
+		line-height: 40px;
+	}
+	.appoint-moible-detail .save-btn,
+	.appoint-moible-detail .cancel-btn {
+		display: inline-block;
+    	line-height: 40px;
+	}
+	.appoint-moible-detail .save-btn {
+		display: block;
+		text-align: right;
+	}
+	.appoint-moible-detail .title {
+		font-size: 14px;
+		font-family: 'Open sans Semibold';
+	}
+		.appoint-moible-detail .back-left-icon {
+			margin-right: 5px;
+		}
+		.appoint-moible-detail .delete-icon {
+			margin-left: 7px;
+		}
+	.mobile-branch-detail {
+		width: 100%;
+		position: relative;
+		padding: 10px 0 10px 0;
+	}
+		.mobile-branch-detail ul {
+			padding-left: 26px;
+			margin-bottom: 40px;
+		}
+			.mobile-branch-detail ul li {
+				border-bottom: 1px solid #ececec;
+			}
+			.mobile-branch-detail ul li:last-child {
+				border-bottom: none;
+			}
+				.mobile-branch-detail .remaining-h {
+					color: #999;
+					font-size: 13px;
+					margin-bottom: 10px;
+					position: relative;
+					padding-left: 25px;
+				}
+					.mobile-branch-detail .remaining-h .hours {
+						font-size: 13px;
+						color: #ff8a00;
+					}
+					.mobile-branch-detail .notif-row {
+						padding-bottom: 11px;
+						position: relative;
+						padding-left: 25px;
+
+					}
+					.mobile-branch-detail .notif {
+						font-size: 13px;
+						color: #ff8a00;
+					}
+					.mobile-branch-detail .edit-btn {
+						border: 1px solid #ff8900;
+					    color: #ff8900;
+					    font-family: Arial;
+					    font-size: 9px;
+					    border-radius: 8px;
+					    text-align: center;
+					    width: 40px;
+					    height: 16px;
+					    line-height: 15px;
+					    display: inline-block;
+					    margin-left: 5px;
+					}
+					.mobile-branch-detail .time-yellow-icon {
+						position: absolute;
+						top: 2px;
+						margin-right: 10px;
+						left: 0;
+					}
+					.mobile-branch-detail .notif-yellow-icon {
+						position: absolute;
+						top: 2px;
+						left: 0;
+					}
+					.mobile-branch-detail p {
+						font-size: 13px;
+						color: #999;
+						position: relative;
+						padding-left: 25px;
+					}
+					.mobile-branch-detail p.address {
+						padding-bottom: 11px;
+						padding-top: 11px;
+						line-height: 1.5;
+					}
+						.mobile-branch-detail .address-icon {
+							position: absolute;
+							left: 0;
+							top: 14px;
+						}
+					.mobile-branch-detail .appoint {
+						position: relative;
+					}
+						.mobile-branch-detail .appoint p {
+							line-height: 42px;
+						}
+							.mobile-branch-detail .appoint-icon {
+								position: absolute;
+								top: 13px;
+							}
+					.mobile-branch-detail .customer {
+						position: relative;
+						padding: 10px 0;
+					}
+						.mobile-branch-detail .customer p {
+							padding-bottom: 6px;
+						}
+							.mobile-branch-detail .customer .user-icon {
+								position: absolute;
+							}
+					.mobile-branch-detail .date-time {
+						position: relative;
+						padding-top: 14px;
+    					padding-bottom: 12px;
+					}
+						.mobile-branch-detail .date-time p.date  {
+							padding-bottom: 4px;
+						}
+						.mobile-branch-detail .date-time p > span:first-child {
+							color: #00aeef;
+						}
+						.mobile-branch-detail .time-icon {
+							position: absolute;
+						}
+					.mobile-branch-detail .agent-detail {
+						position: relative;
+					}
+						.mobile-branch-detail .agents-icon {
+							position: absolute;
+							top: 22px;
+						}
+						.mobile-branch-detail .agent-info {
+							padding-left: 35px;
+						}
+							.mobile-branch-detail .agent-info img {
+								width: 36px;
+								height: 36px;
+								border-radius: 50%;
+								display: inline-block;
+								position: relative;
+								top: -10px;
+								margin-right: 7px;
+							}
+							.mobile-branch-detail .name-phone {
+								display: inline-block;
+							}
+								.mobile-branch-detail .name-phone p {
+									padding-left: 0;
+								}
+								.mobile-branch-detail .name-phone p:first-child {
+									padding-top: 13px;
+								}
+								.mobile-branch-detail .name-phone p:last-child {
+									padding-top: 5px;
+								}
+						.mobile-branch-detail .comments {
+							position: relative;
+							padding-top: 12px;
+							padding-bottom: 20px;
+						}
+							.mobile-branch-detail .comments .chat-icon {
+								position: absolute;
+							}
+							.mobile-branch-detail .comments p {
+
+							}
+			.mobile-branch-detail .print-confirm-btns .confirm-btn,
+			.mobile-branch-detail .print-confirm-btns .print-btn {
+				width: 97px;
+				height: 31px;
+				padding-left: 46px;
+				font-size: 13px;
+				line-height: 19px;
+			}
+			.mobile-branch-detail .print-confirm-btns .confirm-btn {
+				padding-left: 5px;
+				padding-right: 5px;
+				text-align: center;
+				line-height: 18px;
+			}
+			.mobile-branch-detail .print-confirm-btns {
+				padding-bottom: 10px;
+				padding-top: 6px;
+				background: #fbfbfb;
+				margin-bottom: 0;
+				position: fixed;
+    			bottom: 0;
+    			width: 100%;
+    			margin-bottom: 0;
+    			margin-top: 0;
+			}
+			.print-confirm-btns .print-btn .print-icon {
+				top: 4px;
+			}
+			/*mobile-branch-detail-edit*/
+			.mobile-branch-detail-edit {
+				position: relative;
+			}
+			.agentDropdown .ng-dropdown-field:before,
+			.mobile-branch-edit .ng-dropdown-field:before {
+				width: 15px;
+				height: 16px;
+				background-position: -48px -46px;
+			}
+			.time-select .ng-dropdown-field:before {
+				width: 15px;
+				height: 16px;
+				background-position: -48px -46px;
+			}
+			.mobile-branch-edit .branch-detail-confirm-info .ng-dropdown-field {
+				padding-left: 12px;
+				font-size: 13px;
+				font-family: 'Open sans';
+			}
+			.mobile-branch-edit .branch-detail-confirm-info .ng-dropdown-menu .option {
+				font-size: 13px;
+			}
+			.mobile-branch-edit .mobile-branch-detail-edit ul {
+				padding-left: 18px;
+				padding-right: 18px;
+				padding-top: 15px;
+			}
+				.mobile-branch-edit .branch-detail-confirm-info.edit ul li {
+					padding-bottom: 5px;
+				}
+					.branch-detail-confirm-info.edit ul li .date-select {
+						padding-left: 0;
+					}
+					.mobile-branch-detail-edit.edit ul li .date-select {
+						position: relative;
+						height: 36px;
+					}
+					.mobile-branch-detail-edit.edit .date-select .arrow-blue-icon {
+						top: 8px;
+					}
+					.mobile-branch-edit .branch-detail-confirm-info ul li:first-child p {
+						position: relative;
+						padding-left: 23px;
+						line-height: 1.5;
+						font-size: 13px;
+						padding-bottom: 5px;
+					}
+						.mobile-branch-edit .branch-detail-confirm-info ul li:first-child p .address-icon {
+							position: absolute;
+							left: 0;
+							top: 3px;
+						}
+					.mobile-branch-edit .branch-detail-confirm-info ul li label {
+						display: block;
+						position: relative;
+						margin-bottom: 10px;
+						font-size: 13px;
+					}
+					.mobile-branch-edit .branch-detail-confirm-info.edit ul li .edit-input,
+					.mobile-branch-edit .branch-detail-confirm-info .edit-dropdown {
+						padding-left: 0;
+						width: 100%;
+					}
+					.mobile-branch-edit .branch-detail-confirm-info.edit ul li input {
+						width: 100%;
+						height: 26px;
+						font-size: 13px;
+						padding-left: 12px;
+						font-family: 'Open sans';
+					}
+					.branch-detail-confirm-info.edit ul li textarea {
+						width: 100%;
+						font-size: 13px;
+						border-radius: 0;
+						font-family: 'Open sans';
+					}
+					.mobile-branch-edit .branch-detail-confirm-info ul li.textarea-li label,
+					.mobile-branch-edit .branch-detail-confirm-info ul li.agent-info-li label {
+						top: 0;
+					}
+						.mobile-branch-edit .branch-detail-confirm-info .ng-dropdown {
+							width: 100%;
+						}
+			.mobile-confirm-modal .confrim-notif-modal {
+				width: 192px;
+			}
+				.mobile-confirm-modal .confrim-notif-modal .confirm-modal-head p {
+					font-size: 13px;
+				}
+				.date-select .arrow-blue-icon {
+					position: absolute;
+				    right: 7px;
+				    top: 29px;
+				    left: auto;
+				    z-index: 9;
+				}
+		/*notification popup*/
+		.notifications-popup {
+			top: 40px;
+			right: 0;
+			width: 100%;
+			/*position: fixed;*/
+		}
+		.notif-popup-bg-overlay {
+			top: 40px;
+		}
+		.notifications-popup .popup-head {
+			left: 7px;
+			height: 42px;
+			line-height: 42px;
+			font-size: 14px;
+		}
+		.notifications-popup .popup-head:before {
+			right: auto;
+			width: 14px;
+			height: 7px;
+			border-right: 7px solid transparent;
+		    border-bottom: 7px solid #ff8900;
+		    border-left: 7px solid transparent;
+		    top: -7px;
+    		left: 11px;
+		}
+			.notifications-popup ul li .status,
+			.notifications-popup ul li .b-name {
+				font-size: 12px;
+			}
+			.notifications-popup ul li .time {
+				font-size: 11px;
+			}
+			.notifications-popup ul li a {
+				padding-top: 13px;
+				padding-bottom: 17px;
+			}
+			.notifications-popup ul li .not-seen {
+				top: 26px;
+			}
+			.mobile-confirm-modal .confirm-notif-bg-overlay {
+				position: fixed;
+				top: 40px;
+				left: 0;
+			}
+			.mobile-confirm-modal .confrim-notif-modal .close-icon {
+				right: -10px;
+    			top: -12px;
+			}
+
+    .curr-loc-marker-icon,
+    .zoom-in-icon,
+    .zoom-out-icon,
+    .confirm-blue-icon,
+    .star-banner-icon,
+	.star-circular-icon,
+	.confirm-icon,
+	.agents-icon,
+	.branch-marker-icon,
+	.current-branch-marker-icon,
+	.close-icon,
+	.filter-icon,
+	.help-icon,
+	.info-icon,
+	.selection-grey-icon,
+	.selection-icon,
+	.edit-white-icon,
+	.delete-icon,
+	.notif-icon,
+	.phone-icon,
+	.appoint-icon,
+	.time-yellow-icon,
+	.trav-time-icon,
+	.confirm-white-icon,
+	.address-icon,
+	.arrow-blue-icon,
+	.blue-plus-icon,
+	.notif-yellow-icon,
+	.back-left-icon,
+	.time-icon,
+	.user-icon,
+	.print-icon,
+	.time-edit-icon,
+	.radio-checked,
+	.back-icon,
+	.search-icon,
+	.chat-icon,
+	.radio-unchecked,
+	.day-legend-icon,
+	.ng-dropdown-field:before {
+        background-image: url(../i/m-sprite-1x.png);
+        display: inline-block;
+    }
+
+
+.address-icon {
+	width: 13px;
+	height: 16px;
+	background-position: 0 0;
+}
+
+.agents-icon {
+	width: 22px;
+	height: 16px;
+	background-position: -13px -16px;
+}
+
+.appoint-icon {
+	width: 16px;
+    height: 16px;
+    background-position: -33px -31px;
+}
+
+.arrow-blue-icon {
+	width: 15px;
+	height: 16px;
+	background-position: -48px -46px;
+}
+
+.back-icon {
+	width: 5px;
+	height: 8px;
+	background-position: -63px -62px;
+}
+
+.back-left-icon {
+	width: 6px;
+    height: 11px;
+    background-position: -68px -67px;
+}
+
+.branch-marker-icon {
+	width: 20px;
+	height: 25px;
+	background-position: -73px -78px;
+}
+
+.chat-icon {
+	width: 18px;
+	height: 18px;
+	background-position: -93px -103px;
+}
+
+.close-icon {
+	width: 20px;
+	height: 20px;
+	background-position: -110px -120px;
+}
+
+.confirm-blue-icon {
+	width: 20px;
+	height: 19px;
+	background-position: -129px -140px;
+}
+
+.confirm-icon {
+	width: 19px;
+	height: 19px;
+	background-position: -149px -159px;
+}
+
+.confirm-white-icon {
+	width: 19px;
+	height: 19px;
+	background-position: -168px -178px;
+}
+
+.current-branch-marker-icon {
+	width: 20px;
+	height: 25px;
+	background-position: -187px -197px;
+}
+
+.curr-loc-marker-icon {
+	width: 56px;
+	height: 56px;
+	background-position: -207px -222px;
+}
+
+.delete-icon {
+	width: 15px;
+    height: 22px;
+    background-position: -263px -277px;
+}
+
+.edit-white-icon {
+	width: 17px;
+	height: 20px;
+	background-position: -277px -298px;
+}
+
+.filter-icon {
+	width: 16px;
+    height: 16px;
+    background-position: -295px -316px;
+}
+
+.notif-icon {
+	width: 17px;
+	height: 20px;
+	background-position: -310px -332px;
+}
+
+.notif-yellow-icon {
+	width: 14px;
+	height: 20px;
+	background-position: -326px -350px;
+}
+
+.phone-icon {
+	width: 16px;
+    height: 18px;
+    background-position: -340px -368px;
+}
+
+.print-icon {
+	width: 16px;
+	height: 22px;
+	background-position: -356px -383px;
+}
+
+.radio-checked {
+	width: 9px;
+	height: 9px;
+	background-position: -370px -402px;
+}
+
+.radio-unchecked {
+	width: 9px;
+	height: 9px;
+	background-position: -379px -411px;
+}
+
+.search-icon {
+	width: 12px;
+	height: 12px;
+	background-position: -388px -420px;
+}
+
+.selection-grey-icon {
+	width: 16px;
+	height: 19px;
+	background-position: -400px -432px;
+}
+
+.selection-icon {
+	width: 16px;
+	height: 19px;
+	background-position: -416px -451px;
+}
+
+.star-banner-icon {
+	width: 36px;
+	height: 36px;
+	background-position: -432px -470px;
+}
+
+.star-circular-icon {
+	width: 13px;
+	height: 13px;
+	background-position: -468px -506px;
+}
+
+.time-icon {
+	width: 14px;
+	height: 18px;
+	background-position: -481px -519px;
+}
+
+.time-yellow-icon {
+	width: 17px;
+	height: 19px;
+	background-position: -493px -535px;
+}
+
+.trav-time-icon {
+	width: 14px;
+	height: 16px;
+	background-position: -509px -553px;
+}
+
+.user-icon {
+	width: 14px;
+    height: 16px;
+    background-position: -522px -569px;
+}
+
+.zoom-in-icon {
+	width: 22px;
+	height: 23px;
+	background-position: -535px -585px;
+}
+
+.zoom-out-icon {
+	width: 22px;
+	height: 23px;
+	background-position: -557px -608px;
+}
+	@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+	    .curr-loc-marker-icon,
+	    .zoom-in-icon,
+	    .zoom-out-icon,
+	    .confirm-blue-icon,
+	    .star-banner-icon,
+		.star-circular-icon,
+		.confirm-icon,
+		.agents-icon,
+		.branch-marker-icon,
+		.current-branch-marker-icon,
+		.close-icon,
+		.filter-icon,
+		.help-icon, .info-icon,
+		.selection-grey-icon,
+		.selection-icon,
+		.back-left-icon,
+		.notif-icon,
+		.phone-icon,
+		.appoint-icon,
+		.time-yellow-icon,
+		.trav-time-icon,
+		.address-icon,
+		.arrow-blue-icon,
+		.blue-plus-icon,
+		.notif-yellow-icon,
+		.time-icon,
+		.user-icon,
+		.print-icon,
+		.time-edit-icon,
+		.radio-checked,
+		.back-icon,
+		.search-icon,
+		.edit-white-icon,
+		.delete-icon,
+		.confirm-white-icon,
+		.chat-icon,
+		.radio-unchecked,
+		.day-legend-icon,
+		.ng-dropdown-field:before {
+	        background-image: url(../i/m-sprite-2x.png);
+	        background-size: 579px 631px;
+	    }
+	}
+}
+
+@media (min-width: 768px) and (max-width: 875px) {
+	.appo-type-container {
+		padding: 44px 20px 44px 30px;
+	}
+	.step-content .requrmt-content {
+		padding: 44px 10px 44px 30px;
+	}
+	.step-content .requrmt-content .agree-row,
+	.step-content .requrmt-content .requrmt-know-row {
+		padding-right: 5px;
+	}
+	.time-select-col ul li .scheduled > div {
+		padding-left: 10px;
+	}
+	.branch-detail-confirm-info ul {
+		padding-left: 50px;
+	}
+	.branch-detail-head .remaining-h {
+		line-height: normal;
+	}
+}
+@media (device-width : 414px) and (device-height : 736px) {
+	.agent-content ul {
+		max-height: 400px;
+	}
+}
+@media (device-width : 375px) and (device-height : 667px) {
+	.agent-content ul {
+		max-height: 300px;
+	}
+}
