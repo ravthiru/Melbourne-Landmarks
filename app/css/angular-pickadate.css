@@ -121,17 +121,17 @@
   margin-bottom: 10px;
 }
 .date-time-content .mobile-only .pickadate-modal,
-.mobile-branch-edit .branch-detail-confirm-info.edit .date-select .pickadate-modal {
+.mobile-landmark-edit .landmark-detail-confirm-info.edit .date-select .pickadate-modal {
   width: 250px;
 }
 .date-time-content .mobile-only ul.pickadate-cell,
-.mobile-branch-edit .branch-detail-confirm-info.edit .date-select ul.pickadate-cell {
+.mobile-landmark-edit .landmark-detail-confirm-info.edit .date-select ul.pickadate-cell {
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 0;
 }
 .date-time-content .mobile-only ul.pickadate-cell li,
-.mobile-branch-edit .branch-detail-confirm-info.edit .date-select ul.pickadate-cell li {
+.mobile-landmark-edit .landmark-detail-confirm-info.edit .date-select ul.pickadate-cell li {
   padding-bottom: 3px;
   padding-top: 5px;
 }
