@@ -430,17 +430,17 @@ header {
             position: relative;
             top: 6px;
         }
-        .appoint-select-col .notification .notif-icon,
+        .theme-select-col .notification .notif-icon,
         header .notification .notif-icon {
             position: relative;
             top: 5px;
             margin-right: 15px;
         }
-        .appoint-select-col .notification.mobile {
+        .theme-select-col .notification.mobile {
             display: none;
         }
             .selection-confirm-btns .num-of-notif,
-            .appoint-select-col .notification .num-of-notif,
+            .theme-select-col .notification .num-of-notif,
             header .notification .num-of-notif {
                 position: absolute;
                 background: #ff8a00;
@@ -460,14 +460,14 @@ header {
                 top: -2px;
             }
 /*-----------------------------------
-        appointment selcetion
+        theme selcetion
 -------------------------------------*/
-.appoint-confirm-container,
-.appoint-select-container {
+.theme-confirm-container,
+.theme-select-container {
     position: relative;
     top: 56px;
 }
-    .branch-detail-col {
+    .landmark-detail-col {
         width: 259px;
         position: fixed;
         z-index: 9;
@@ -478,14 +478,14 @@ header {
         top: 56px;
     }
 
-        .branch-detail-col .branch-head {
+        .landmark-detail-col .landmark-head {
             height: 48px;
             border-bottom: 1px solid #ececec;
             background-color: #fbfbfb;
             text-align: center;
             display: block;
         }
-            .branch-detail-col .branch-head p.b-title {
+            .landmark-detail-col .landmark-head p.b-title {
                 font-size: 17px;
                 color: #999999;
                 line-height: 46px;
@@ -493,13 +493,13 @@ header {
         .curr-past-tabs {
             display: none;
         }
-        .branch-detail-content {
+        .landmark-detail-content {
             background: #ffffff;
         }
-            .branch-detail-content .branch-photo {
+            .landmark-detail-content .landmark-photo {
                 position: relative;
             }
-                .branch-detail-content .branch-photo .b-name {
+                .landmark-detail-content .landmark-photo .b-name {
                     position: absolute;
                     width: 100%;
                     height: 49px;
@@ -510,85 +510,85 @@ header {
                     bottom: 0;
                     background-color: rgba(0,0,0,0.6);
                 }
-                .branch-detail-content .branch-photo img {
+                .landmark-detail-content .landmark-photo img {
                     width: 100%;
                 }
-                .branch-photo .star-banner-icon {
+                .landmark-photo .star-banner-icon {
                     position: absolute;
                     top: 0;
                     left: 0;
                 }
-            .branch-detail-content .branch-detail-info {
+            .landmark-detail-content .landmark-detail-info {
                 background-color: #ffffff;
                 padding-left: 21px;
             }
-                .branch-detail-info > ul > li {
+                .landmark-detail-info > ul > li {
                     border-bottom: 1px solid #ebebeb;
                     position: relative;
                     padding: 13px 0 15px 33px;
                 }
-                .branch-detail-info > ul > li:last-child {
+                .landmark-detail-info > ul > li:last-child {
                     padding-left: 0;
                 }
-                    .branch-detail-info > ul > li p {
+                    .landmark-detail-info > ul > li p {
                         font-size: 15px;
                         color: #999999;
                         line-height: 1.4;
                     }
-                    .branch-detail-info > ul > li:last-child > p {
+                    .landmark-detail-info > ul > li:last-child > p {
                         padding-left: 33px;
                     }
-                    .branch-detail-info ul li .address-icon,
-                    .branch-detail-info ul li .phone-icon,
-                    .branch-detail-info ul li .time-icon,
-                    .branch-detail-info ul li .trav-time-icon,
-                    .branch-detail-info ul li .agents-icon {
+                    .landmark-detail-info ul li .address-icon,
+                    .landmark-detail-info ul li .phone-icon,
+                    .landmark-detail-info ul li .time-icon,
+                    .landmark-detail-info ul li .trav-time-icon,
+                    .landmark-detail-info ul li .agents-icon {
                         position: absolute;
                         top: 14px;
                     }
-                    .branch-detail-info ul li .address-icon {
+                    .landmark-detail-info ul li .address-icon {
                         left: 5px;
                     }
-                    .branch-detail-info ul li .phone-icon {
+                    .landmark-detail-info ul li .phone-icon {
                         left: 4px;
                     }
-                    .branch-detail-info ul li .time-icon {
+                    .landmark-detail-info ul li .time-icon {
                         left: 6px;
                     }
-                    .branch-detail-info ul li .trav-time-icon {
+                    .landmark-detail-info ul li .trav-time-icon {
                         left: 5px;
                     }
-                    .branch-detail-info ul li .agents-icon {
+                    .landmark-detail-info ul li .agents-icon {
                         left: 0;
                     }
-                    .branch-detail-info ul li.b-travel p > a {
+                    .landmark-detail-info ul li.b-travel p > a {
                         color: #00aeef;
                     }
-                    .branch-filter ul.agents,
-                    .branch-detail-info ul.agents {
+                    .landmark-filter ul.agents,
+                    .landmark-detail-info ul.agents {
                         margin-top: 7px;
                     }
-                        .branch-filter ul.agents li,
-                        .branch-detail-info ul.agents li {
+                        .landmark-filter ul.agents li,
+                        .landmark-detail-info ul.agents li {
                             float: left;
                             margin-right: 6px;
                         }
-                            .branch-detail-info > ul > li p.agent-name,
-                            .branch-filter ul.agents li p.agent-name,
-                            .branch-detail-info ul.agents li p.agent-name {
+                            .landmark-detail-info > ul > li p.agent-name,
+                            .landmark-filter ul.agents li p.agent-name,
+                            .landmark-detail-info ul.agents li p.agent-name {
                                 font-size: 11px;
                                 text-align: center;
                             }
-                            .branch-detail-info > ul > li p.agent-name {
+                            .landmark-detail-info > ul > li p.agent-name {
                                 margin-right: 15px;
                             }
-                            .branch-filter ul.agents li img,
-                            .branch-detail-info ul.agents li img {
+                            .landmark-filter ul.agents li img,
+                            .landmark-detail-info ul.agents li img {
                                 border-radius: 50%;
                                 width: 41px;
                                 height: 41px;
                             }
-            .branch-detail-content .book-app-btn {
+            .landmark-detail-content .book-app-btn {
                 height: 39px;
                 line-height: 34px;
                 font-family: Arial;
@@ -603,15 +603,15 @@ header {
                 display: none;
             }
 /*-----------------------------------
-        appointment selcetion column
+        theme selcetion column
 -------------------------------------*/
-    .appoint-select-col {
+    .theme-select-col {
         position: absolute;
         width: 100%;
         padding-left: 259px;
         z-index: 8
     }
-        .appoint-select-head {
+        .theme-select-head {
             height: 48px;
             padding: 0 17px;
             border-bottom: 1px solid #ececec;
@@ -624,33 +624,33 @@ header {
             -webkit-transition: left 0.4s linear;
             -moz-transition: left 0.4s linear;
         }
-        .appoint-select-head.slide {
+        .theme-select-head.slide {
             /*left: -241px;*/
         }
-        .appoint-select-head {
+        .theme-select-head {
             padding-left: 276px;
         }
-            .appoint-select-head p.title {
+            .theme-select-head p.title {
                 color: #999999;
                 font-size: 17px;
                 line-height: 46px;
             }
-            .appoint-select-head .filter {
+            .theme-select-head .filter {
                 line-height: 46px;
             }
-                .appoint-select-head .filter a {
+                .theme-select-head .filter a {
                     color: #999999;
                     font-size: 15px;
                 }
-                .appoint-select-head .filter .filter-icon {
+                .theme-select-head .filter .filter-icon {
                     position: relative;
                     top: 4px;
                     margin-right: 9px;
                 }
-                .appoint-select-head .filter .filter-text {
+                .theme-select-head .filter .filter-text {
                     display: inline-block;
                 }
-    .appoint-select-container div.selection-confirm-col {
+    .theme-select-container div.selection-confirm-col {
         background: #fbfbfb;
         height: 53px;
         position: fixed;
@@ -689,18 +689,18 @@ header {
 /*----------------------------------
         map view
 ------------------------------------*/
-#branchs-map-view .map-container {
+#landmarks-map-view .map-container {
     width: 100%;
     height: 580px;
     position: relative;
 }
-    #branchs-map-view .map-container .map {
+    #landmarks-map-view .map-container .map {
         position: absolute;
         width: 100%;
         height: 100%;
         left: 0;
     }
-    #branchs-map-view .current-radius {
+    #landmarks-map-view .current-radius {
         width: 59px;
         height: 30px;
         border: 2px solid #00aeef;
@@ -712,31 +712,31 @@ header {
         margin-top: 18px;
         background-color: rgba(255,255,255,.3);
     }
-    #branchs-map-view .current-radius.active {
+    #landmarks-map-view .current-radius.active {
         background: #00aeef;
         color: #ffffff;
     }
-    #branchs-map-view .current-radius.ten,
-    #branchs-map-view .current-radius.fifteen,
-    #branchs-map-view .current-radius.twenty {
+    #landmarks-map-view .current-radius.ten,
+    #landmarks-map-view .current-radius.fifteen,
+    #landmarks-map-view .current-radius.twenty {
         border-left: none;
     }
-    #branchs-map-view .current-radius.twenty {
+    #landmarks-map-view .current-radius.twenty {
         margin-right: 16px;
     }
     .star-marker img {
         z-index: 9999999;
         position: relative;
     }
-    .branch-marker-icon {
+    .landmark-marker-icon {
         position: relative;
         z-index: 99;
     }
 
 /*----------------------------------
-        branch-filter
+        landmark-filter
 ------------------------------------*/
-.branch-filter {
+.landmark-filter {
     width: 241px;
     height: 100%;
     position: fixed;
@@ -749,15 +749,15 @@ header {
     -moz-transition: right 0.4s linear;
     display: block;
 }
-.branch-filter.active {
+.landmark-filter.active {
     right: 0;
 
 }
-.branch-filter-content {
+.landmark-filter-content {
     position: relative;
 }
-    .branch-filter label,
-    .branch-filter p {
+    .landmark-filter label,
+    .landmark-filter p {
         color: #ffffff;
         font-size: 15px;
         padding-left: 30px;
@@ -766,7 +766,7 @@ header {
         background: #2c2c2c;
         width: 100%;
     }
-    .branch-filter input {
+    .landmark-filter input {
         display: block;
         background: #404040;
         width: 100%;
@@ -775,32 +775,32 @@ header {
         line-height: 15px;
         color: #ffffff;
     }
-    .branch-filter input::-webkit-input-placeholder {
+    .landmark-filter input::-webkit-input-placeholder {
         color: rgba(255,255,255,0.3);
         font-size: 15px;
         font-family: 'HelveticaNeue-Light';
         font-style: italic;
     }
-    .branch-filter input::-moz-placeholder {
+    .landmark-filter input::-moz-placeholder {
         color: rgba(255,255,255,0.3);
         font-size: 15px;
         font-family: 'HelveticaNeue-Light';
         font-style: italic;
     }
-    .branch-filter input:-ms-input-placeholder {
+    .landmark-filter input:-ms-input-placeholder {
         color: rgba(255,255,255,0.3);
         font-size: 15px;
         font-family: 'HelveticaNeue-Light';
         font-style: italic;
     }
-    .branch-filter p.r-title,
-    .branch-filter p.f-title {
+    .landmark-filter p.r-title,
+    .landmark-filter p.f-title {
         height: 56px;
         line-height: 56px;
         background: #404040;
         font-size: 17px;
     }
-    .branch-filter p.r-title {
+    .landmark-filter p.r-title {
         background: #2c2c2c;
         height: 47px;
         line-height: 47px;
@@ -817,27 +817,27 @@ header {
             background: #404040;
             margin-top: 0;
         }
-            .recent-branch ul li > p.desc {
+            .recent-landmark ul li > p.desc {
                 color: #b0b0b0;
                 font-size: 12px;
             }
-        .branch-filter label {
+        .landmark-filter label {
             height: 47px;
             line-height: 47px;
             margin-bottom: 0;
         }
 
-    .branch-filter .recent-branch {
+    .landmark-filter .recent-landmark {
         background: #404040;
     }
-        .recent-branch ul {
+        .recent-landmark ul {
             padding-top: 3px;
         }
-            .recent-branch p.b-name {
+            .recent-landmark p.b-name {
                 padding-top: 11px;
                 background: #404040;
             }
-            .recent-branch p.desc {
+            .recent-landmark p.desc {
                 padding-top: 6px;
                 background: #404040;
             }
@@ -859,27 +859,27 @@ header {
     left: 50%;
 
 }
-    .appointment-type .distance-coverage p.title {
+    .theme-type .distance-coverage p.title {
         color: #999999;
         font-size: 17px;
         text-align: center;
         border-bottom: 1px dotted #ececec;
         padding: 13px 0 14px;
     }
-    .appointment-type .distance-coverage .nearest {
+    .theme-type .distance-coverage .nearest {
         color: #999999;
         font-size: 15px;
         text-align: center;
         padding: 24px 0 0;
     }
-       .appointment-type .distance-coverage .distance-option {
+       .theme-type .distance-coverage .distance-option {
             margin: 18px 0 28px 32px;
 
         }
-     .appointment-type   .distance-coverage ul li {
+     .theme-type   .distance-coverage ul li {
             float: left;
         }
-         .appointment-type   .distance-coverage ul li a {
+         .theme-type   .distance-coverage ul li a {
                 font-size: 17px;
                 display: block;
                 color: #c6c6c6;
@@ -891,17 +891,17 @@ header {
                 border-left: none;
                 background-color: rgba(255,255,255,.3);
             }
-          .appointment-type  .distance-coverage ul li a:hover {
+          .theme-type  .distance-coverage ul li a:hover {
                 background: #00adef;
                 color: #ffffff;
                 border-right: 2px solid #00adee;
                 border-top: 2px solid #00adee;
                 border-bottom: 2px solid #00adee;
             }
-            .appointment-type .distance-coverage ul li:first-child a {
+            .theme-type .distance-coverage ul li:first-child a {
                 border-left: 2px solid #c5c5c5;
             }
-            .appointment-type .distance-coverage ul li.active a {
+            .theme-type .distance-coverage ul li.active a {
                 color: #ffffff;
                 background: #00adef;
                 border: 2px solid #00adee;
@@ -910,7 +910,7 @@ header {
                 .distance-coverage ul li a .mil {
                     font-size: 15px;
                 }
-        .appointment-type .distance-coverage .select-btn {
+        .theme-type .distance-coverage .select-btn {
             display: block;
             height: 33px;
             line-height: 20px;
@@ -921,9 +921,9 @@ header {
         }
 
 /*----------------------------------
-        appointment type
+        theme type
 ------------------------------------*/
-.appointment-type {
+.theme-type {
     position: fixed;
     width: 635px;
     top: 50%;
@@ -939,31 +939,31 @@ header {
     margin-left: -317px;
     margin-top: -204px;
 }
-.appointment-type p.title {
+.theme-type p.title {
     color: #999999;
     font-size: 17px;
     text-align: center;
     border-bottom: 1px dotted #ececec;
     padding: 13px 0 14px;
 }
-.appointment-type .nearest {
+.theme-type .nearest {
     color: #999999;
     font-size: 15px;
     text-align: center;
     padding: 24px 0 0;
 }
-.appointment-type .distance-option {
+.theme-type .distance-option {
     margin: 18px auto 28px auto;
     width: 270px;
 
 }
 
-.appointment-type .alt{
+.theme-type .alt{
     margin: 0 20px!important;
     width: auto!important;
 
 }
-.appointment-type .select-btn {
+.theme-type .select-btn {
     display: block;
     height: 33px;
     line-height: 20px;
@@ -973,7 +973,7 @@ header {
     margin-bottom: 21px;
 }
 /*--------------------------------------------------
-        book appointment progress step
+        book theme progress step
 -----------------------------------------------------*/
 .pregress-map-row {
     position: relative;
@@ -1513,7 +1513,7 @@ header {
                 padding-bottom: 25px;
             }
             .step-6.step-content .add-content ul li.user-li:nth-child(3),
-            .step-6.step-content .add-content ul li.appoint-type-li:nth-child(2) {
+            .step-6.step-content .add-content ul li.theme-type-li:nth-child(2) {
                 height: 36px;
             }
                 .step-6.step-content .add-content ul li input {
@@ -1557,7 +1557,7 @@ header {
                     top: 1px;
                     z-index: 9;
                 }
-                .branch-detail-confirm-info .date-format,
+                .landmark-detail-confirm-info .date-format,
                 .date-select .date-format,
                 .step-6.step-content .add-content ul li .date-format {
                     position: absolute;
@@ -1573,7 +1573,7 @@ header {
                     padding-left: 12px;
                     /*display: none;*/
                 }
-                .branch-detail-confirm-info .date-format,
+                .landmark-detail-confirm-info .date-format,
                 .date-select .date-format {
                     width: 66%;
                     left: 0;
@@ -1583,7 +1583,7 @@ header {
                     color: #999999;
                     font-family: 'Open sans Light';
                 }
-                .branch-detail-confirm-info .date-format.selected-value,
+                .landmark-detail-confirm-info .date-format.selected-value,
                 .date-select .date-format.selected-value,
                 .step-6.step-content .add-content ul li .date-format.selected-value {
                     border: none;
@@ -1594,11 +1594,11 @@ header {
                     font-size: 15px;
                     font-family: 'Open sans';
                 }
-                .branch-detail-confirm-info .date-format {
+                .landmark-detail-confirm-info .date-format {
                     height: 29px;
                     line-height: 25px;
                 }
-                .branch-detail-confirm-info .date-format.selected-value {
+                .landmark-detail-confirm-info .date-format.selected-value {
                     left: 144px;
                     color: #00aeef;
                     font-size: 15px;
@@ -1690,7 +1690,7 @@ header {
                         padding-left: 10px;
                         padding-top: 2px;
                     }
-                .add-content ul li .appoint-icon {
+                .add-content ul li .theme-icon {
                     left: -1px;
                 }
                 .add-content ul li .agents-icon {
@@ -1759,19 +1759,19 @@ header {
                 background: #FF6C00;
             }
 /*-------------------------------------
-        appoint-confirm-detail
+        theme-confirm-detail
 ---------------------------------------*/
-    .current-appoint-content ul {
+    .current-theme-content ul {
 
     }
-        .current-appoint-content ul li {
+        .current-theme-content ul li {
             padding-left: 21px;
             position: relative;
         }
-        .current-appoint-content ul li.active {
+        .current-theme-content ul li.active {
             background: rgba(0, 174, 239, 0.1);
         }
-            .current-appoint-content ul > li > a {
+            .current-theme-content ul > li > a {
                 color: #999999;
                 display: block;
                 width: 100%;
@@ -1780,23 +1780,23 @@ header {
                 position: relative;
                 border-bottom: 1px solid #ebebeb;
             }
-            .current-appoint-content ul li:last-child a {
+            .current-theme-content ul li:last-child a {
                 border-bottom: none;
             }
-            .past-appoint-content ul li:last-child a {
+            .past-theme-content ul li:last-child a {
                 border-bottom: 1px solid #ebebeb;
             }
-                .current-appoint-content ul li .agent-pic {
+                .current-theme-content ul li .agent-pic {
                     position: absolute;
                     left: 0;
                     top: 22px;
                 }
-                    .current-appoint-content ul li .agent-pic img {
+                    .current-theme-content ul li .agent-pic img {
                         width: 41px;
                         height: 41px;
                         border-radius: 50%;
                     }
-                    .current-appoint-content ul li .agent-pic .status-icon {
+                    .current-theme-content ul li .agent-pic .status-icon {
                         width: 8px;
                         height: 8px;
                         border-radius: 50%;
@@ -1806,21 +1806,21 @@ header {
                         left: -15px;
                         top: 17px;
                     }
-                    .current-appoint-content ul li .appoint-info p.b-name,
-                    .current-appoint-content ul li .appoint-info p.agent-info {
+                    .current-theme-content ul li .theme-info p.b-name,
+                    .current-theme-content ul li .theme-info p.agent-info {
                         padding-bottom: 4px;
                     }
-                    .current-appoint-content ul li .appoint-info p.agent-info {
+                    .current-theme-content ul li .theme-info p.agent-info {
                         font-family: 'Open sans Light';
                     }
-                    .current-appoint-content ul li .appoint-info .status {
+                    .current-theme-content ul li .theme-info .status {
                         font-size: 12px;
                     }
-                        .current-appoint-content ul li .appoint-info .status-state {
+                        .current-theme-content ul li .theme-info .status-state {
                             color: #ff8a00;
                             font-family: 'Open sans Light';
                         }
-    .past-appoint-content .past-title {
+    .past-theme-content .past-title {
         font-size: 17px;
         color: #999999;
         text-align: center;
@@ -1835,10 +1835,10 @@ header {
     position: relative;
     top: 48px;
 }
-    .appint-confirm-detail-row.greater .branch-detail-container {
+    .appint-confirm-detail-row.greater .landmark-detail-container {
         height: 100%;
     }
-    .branch-detail-container {
+    .landmark-detail-container {
         position: absolute;
         width: 100%;
         top: 0;
@@ -1846,101 +1846,101 @@ header {
         padding: 22px 21px 0;
         background: #f4f4f4;
     }
-        .branch-detail-content {
+        .landmark-detail-content {
             border: 1px solid #ececec;
             background-color: #fff;
         }
-        .appint-confirm-detail-row.greater .branch-detail-content {
+        .appint-confirm-detail-row.greater .landmark-detail-content {
             height: 100%;
         }
-        .branch-detail-content.selection{
+        .landmark-detail-content.selection{
             border: none;
         }
-            .branch-detail-content .branch-detail-head {
+            .landmark-detail-content .landmark-detail-head {
                 height: 47px;
                 line-height: 47px;
                 margin: 0 38px;
                 border-bottom: 1px dotted #ececec;
             }
-                .branch-detail-head .notif {
+                .landmark-detail-head .notif {
                     font-size: 15px;
                     color: #ff8a00;
                 }
-                .branch-detail-head .b-name {
+                .landmark-detail-head .b-name {
                     color: #999999;
                     font-size: 17px;
                     line-height: 47px;
                 }
-                .branch-detail-head .edit-btn {
+                .landmark-detail-head .edit-btn {
                     font-size: 15px;
                     color: #999999;
                 }
-                .branch-detail-head .notif-yellow-icon {
+                .landmark-detail-head .notif-yellow-icon {
                     position: relative;
                     top: 5px;
                     margin-right: 8px;
                 }
-                .branch-detail-head .remaining-h {
+                .landmark-detail-head .remaining-h {
                     font-size: 15px;
                     color: #999999;
                 }
-                    .branch-detail-head .remaining-h .hours {
+                    .landmark-detail-head .remaining-h .hours {
                         font-size: 15px;
                         color: #ff8a00;
                     }
 
-                .branch-detail-head .time-yellow-icon {
+                .landmark-detail-head .time-yellow-icon {
                     position: relative;
                     top: 5px;
                     margin-right: 10px;
                 }
-    .appint-confirm-detail-row.greater .branch-detail-confirm-info.edit {
+    .appint-confirm-detail-row.greater .landmark-detail-confirm-info.edit {
         height: 100%;
     }
-        .branch-detail-confirm-info > ul {
+        .landmark-detail-confirm-info > ul {
             padding-left: 147px;
             padding-top: 28px;
         }
-            .branch-detail-confirm-info > ul li {
+            .landmark-detail-confirm-info > ul li {
                 position: relative;
                 padding-bottom: 30px;
             }
-            .branch-detail-confirm-info.edit > ul li {
+            .landmark-detail-confirm-info.edit > ul li {
                 padding-bottom: 30px;
             }
-            .branch-detail-confirm-info ul li.time-li {
+            .landmark-detail-confirm-info ul li.time-li {
                 padding-bottom: 20px;
             }
-            .branch-detail-confirm-info ul li.agent-info-li {
+            .landmark-detail-confirm-info ul li.agent-info-li {
                 padding-bottom: 15px;
             }
-                .branch-detail-confirm-info  ul li .enable-edit {
+                .landmark-detail-confirm-info  ul li .enable-edit {
                     position: relative;
                     height: 18px;
                 }
-                .branch-detail-confirm-info ul li.agent-info-li .enable-edit {
+                .landmark-detail-confirm-info ul li.agent-info-li .enable-edit {
                     height: 31px;
                 }
-                .branch-detail-confirm-info ul li.time-li .enable-edit {
+                .landmark-detail-confirm-info ul li.time-li .enable-edit {
                     height: 27px;
                 }
-                .branch-detail-confirm-info ul li.textarea-li .enable-edit {
+                .landmark-detail-confirm-info ul li.textarea-li .enable-edit {
                     height: 96px;
                 }
-                .branch-detail-confirm-info ul li.agent-info-li label {
+                .landmark-detail-confirm-info ul li.agent-info-li label {
                     top: 7px;
                 }
-                .branch-detail-confirm-info ul li.agent-info-li .enable-edit label {
+                .landmark-detail-confirm-info ul li.agent-info-li .enable-edit label {
                     top: -2px;
                 }
-                .branch-detail-confirm-info ul li.textarea-li .enable-edit label {
+                .landmark-detail-confirm-info ul li.textarea-li .enable-edit label {
                     top: 0;
                 }
-                .branch-detail-confirm-info ul li.textarea-li label {
+                .landmark-detail-confirm-info ul li.textarea-li label {
                     top: -1px;
                 }
 
-                .branch-detail-confirm-info ul li label {
+                .landmark-detail-confirm-info ul li label {
                     margin-bottom: 0;
                     font-size: 15px;
                     color: #999999;
@@ -1949,12 +1949,12 @@ header {
                     left: 0;
                     font-weight: normal;
                 }
-                .branch-detail-confirm-info.edit ul li .edit-input {
+                .landmark-detail-confirm-info.edit ul li .edit-input {
                     padding-left: 144px;
                     position: relative;
                     top: -4px;
                 }
-                    .branch-detail-confirm-info.edit ul li input {
+                    .landmark-detail-confirm-info.edit ul li input {
                         height: 29px;
                         font-size: 15px;
                         color: #999999;
@@ -1963,7 +1963,7 @@ header {
                         width: 66%;
                         font-family: 'Open sans Light';
                     }
-                    .branch-detail-confirm-info.edit ul li textarea {
+                    .landmark-detail-confirm-info.edit ul li textarea {
                         height: 98px;
                         font-size: 15px;
                         color: #999999;
@@ -1973,15 +1973,15 @@ header {
                         resize: none;
                         font-family: 'Open sans Light';
                     }
-                .branch-detail-confirm-info.edit ul li .date-select {
+                .landmark-detail-confirm-info.edit ul li .date-select {
                     padding-left: 144px;
                 }
-                    .branch-detail-confirm-info.edit ul li .date-select .date-input {
+                    .landmark-detail-confirm-info.edit ul li .date-select .date-input {
                         position: relative;
                         left: 0;
                         cursor: pointer;
                     }
-                    .branch-detail-confirm-info.edit ul li .date-select .date-input:after {
+                    .landmark-detail-confirm-info.edit ul li .date-select .date-input:after {
                         content: '';
                         position: absolute;
                         background-position: -10px -461px;
@@ -1991,40 +1991,40 @@ header {
                         right: 6px;
                         z-index: 8;
                     }
-                .branch-detail-confirm-info > ul > li:first-child p {
+                .landmark-detail-confirm-info > ul > li:first-child p {
                     color: #999999;
                     padding-left: 0;
                 }
-                .branch-detail-confirm-info > ul li:first-child .address-icon {
+                .landmark-detail-confirm-info > ul li:first-child .address-icon {
                     position: relative;
                     top: 6px;
                     margin-right: 10px;
                 }
-                .branch-detail-confirm-info > ul li p {
+                .landmark-detail-confirm-info > ul li p {
                     color: #00aeef;
                     font-size: 15px;
                     padding-left: 144px;
                 }
-                .branch-detail-confirm-info > ul li .agent-info {
+                .landmark-detail-confirm-info > ul li .agent-info {
                     padding-left: 144px;
                     color: #00aeef;
                 }
-                    .branch-detail-confirm-info > ul li .agent-info .name {
+                    .landmark-detail-confirm-info > ul li .agent-info .name {
                         padding-left: 10px;
                     }
-                    .branch-detail-confirm-info > ul li .agent-info .phone-icon {
+                    .landmark-detail-confirm-info > ul li .agent-info .phone-icon {
                         position: relative;
                         top: 4px;
                         margin-right: 5px;
                         margin-left: 13px;
                     }
-                    .branch-detail-confirm-info > ul li .agent-info img {
+                    .landmark-detail-confirm-info > ul li .agent-info img {
                         width: 41px;
                         height: 41px;
                         border-radius: 50%;
                         margin-left: 2px;
                     }
-        .branch-detail-confirm-info .edit-dropdown {
+        .landmark-detail-confirm-info .edit-dropdown {
             padding-left: 144px;
             line-height: 10px;
         }
@@ -2205,8 +2205,8 @@ header {
 .confirm-blue-icon,
 .confirm-icon,
 .agents-icon,
-.branch-marker-icon,
-.current-branch-marker-icon,
+.landmark-marker-icon,
+.current-landmark-marker-icon,
 .close-icon,
 .filter-icon,
 .help-icon,
@@ -2215,7 +2215,7 @@ header {
 .selection-icon,
 .notif-icon,
 .phone-icon,
-.appoint-icon,
+.theme-icon,
 .time-yellow-icon,
 .trav-time-icon,
 .address-icon,
@@ -2274,12 +2274,12 @@ header {
     width: 27px;
     height: 20px;
 }
-.branch-marker-icon {
+.landmark-marker-icon {
     background-position: -47px -246px;
     width: 26px;
     height: 32px;
 }
-.current-branch-marker-icon {
+.current-landmark-marker-icon {
     background-position: -10px -288px;
     width: 26px;
     height: 32px;
@@ -2324,7 +2324,7 @@ header {
     width: 21px;
     height: 21px;
 }
-.appoint-icon {
+.theme-icon {
     background-position: -10px -402px;
     width: 19px;
     height: 19px;
