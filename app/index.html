@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app" id="ng-app" data-ng-controller="MelbourneLandMarksCtrl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Explore Melbourne LandMarks</title>
+    <!-- CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/typography.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
+    <link href="css/angular-pickadate.css" rel="stylesheet">
+    <link href="css/ng-dropdown.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!--JQuery AngularJS lib scripts -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script src="js/lib/angular-touch.min.js"></script>
+    <script src="js/lib/angular-sanitize.min.js"></script>
+    <script src="js/lib/bootstrap.js"></script>
+    <script src="js/lib/ng-map.js"></script>
+    <script src="js/lib/angular-pickadate.js"></script>
+    <script src="js/lib/ng-dropdown.js"></script>
+    <script src="js/lib/slick.js"></script>
+    <script src="js/lib/angular-clickout.js"></script>
+    <script src="js/lib/angular-slick.js"></script>
+    <script src="http://maps.google.com/maps/api/js?libraries=placeses,visualization,drawing,geometry,places"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/directive.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/config.js"></script>
+
+    <div class="bg-overlay"></div>
+    <div ng-if="hasCurrPos" class="page" data-ng-view></div>
+    <div id="location_not_share_modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">WARNING</h4>
+                </div>
+                <div class="modal-body">
+                    <p>You need to share your location to start the application.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+</body>
+
+</html>
